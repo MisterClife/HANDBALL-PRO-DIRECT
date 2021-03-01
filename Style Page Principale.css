@@ -1,4 +1,4 @@
-<style>{}
+
 
 	body {background-color: lightgrey;}
         div{text-align: center;}
@@ -35,10 +35,16 @@
                        border-left: 4px solid #fff;
                        border-right: 4px solid #fff;
         }
+         ul li:last-child{
+        border-right: 1px solid #fff;
+        }
+        ul li:first-child{
+        border-left: 1px solid #fff;
+        }
         
  
 
-</style>
+
 	
 	
 	
