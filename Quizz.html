@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>QUIZZ</title>
+<link rel="stylesheet" type="text/css" href="Quizz.css">
+</head>
+<body>
+<h1>HANDBALL PRO DIRECT</h1>
+<div id="logo"> <img src="logo_small.png" alt="logo" style="width:150px;height:75px;"> </div>
+<ul id=menu>
+<li> <a href="index.html">Acceuil </a> </li>
+<li> <a href="Page Ligue des Champions EHF.html">Ligue des champions EHF </a> </li>
+<li> <a href="Page Championnats du monde IHF.html">Championnat du monde IHF </a> </li>
+<li> <a href="Page Meilleur Joueur du monde.html">Meilleur joueur du monde </a> </li>
+<li> <a href="Quizz.html">Quizz </a> </li>
+</ul>
+<h2>Testons vos connaissances sur la handball ?</h2>
+    
+<h3>Qui a été élu meilleur gardien de tout les temps ?</h3><br>  
+<input type="radio" name="question1" >Yann Genty<br>
+<input type="radio" name="question1" >Niklas Landin Jacobsen<br>
+<input type="radio" name="question1" id="correct1">Thierry Omeyer<br> 
+<input type="radio" name="question1" >Alfredo Quinta<br>
+    
+<h3>Qui a gagné le championnat du monde masculin de handball en 2021 ?</h3><br>  
+<input type="radio" name="question2" >France<br>
+<input type="radio" name="question2" id="correct2">Danemark<br>
+<input type="radio" name="question2" >Algérie<br> 
+<input type="radio" name="question2" >Italie<br>
+    
+<h3>Qui a gagné le dernier championnat du monde feminin de handball (en 2019) ?</h3><br>  
+<input type="radio" name="question3" >USA<br>
+<input type="radio" name="question3" >Japon<br>
+<input type="radio" name="question3" >Russie<br> 
+<input type="radio" name="question3" id="correct3" >Pays-Bas<br>
+    
+<h3>Combien de fois le PSG a-t-il gagné le chaampionnat de France?</h3><br>  
+<input type="radio" name="question4" >10<br>
+<input type="radio" name="question4" id="correct4" >7<br>
+<input type="radio" name="question4" >3<br> 
+<input type="radio" name="question4" >2<br>
+    
+<h3>Quel était le dernier club dans lequel a joué Daniel Narcisse?</h3><br>  
+<input type="radio" name="question5" >KS kielce<br>
+<input type="radio" name="question5" >HBC Nantes<br>
+<input type="radio" name="question5" >FC Barcelone<br> 
+<input type="radio" name="question5" id="correct5" >PSG<br>
+    
+<h3>A partir de combien de pas siffle-t-on marché au handball ?</h3><br>  
+<input type="radio" name="question6" id="correct6">3<br>
+<input type="radio" name="question6" >4<br>
+<input type="radio" name="question6" >1<br> 
+<input type="radio" name="question6" >6<br>
+
+<h3>Peut t'on avertir le même joueur avec deux carton jaunes dans le même match ? ?</h3><br>  
+<input type="radio" name="question7" >Cela dépend de l'arbitre<br>
+<input type="radio" name="question7" >Oui, j'en suis sûr<br>
+<input type="radio" name="question7" >j'ai un doute<br> 
+<input type="radio" name="question7" id="correct7" >NON<br>
+    
+<h3>Dans quel pays a eu le championnat du monde masculin de handball en 2019 ?</h3><br>  
+<input type="radio" name="question8" id="correct8">France<br>
+<input type="radio" name="question8" >Japon<br>
+<input type="radio" name="question8" >Allemagne<br> 
+<input type="radio" name="question8" >Norvège<br>
+
+<h3>Quel est le record de titre en championnat du monde masculin de handball ?</h3><br>  
+<input type="radio" name="question9" >10<br>
+<input type="radio" name="question9" >19<br>
+<input type="radio" name="question9" id="correct9" >6<br> 
+<input type="radio" name="question9" >14<br>
+    
+<h3>Quel est la capitale du pays ayant ce record ?</h3><br>  
+<input type="radio" name="question10" >Tunis<br>
+<input type="radio" name="question10" >Alger<br>
+<input type="radio" name="question10" >Londres<br> 
+<input type="radio" name="question10" id="correct10" >Paris<br>
+
+<div><input type="submit" name="submit" value="Envoyer les réponses" onclick="result()" id=button></div>
+<script type="text/javascript">
+    function result(){
+        var score=0
+        if (document.getElementById('correct1').checked)
+        {
+            score++;
+        }
+         if (document.getElementById('correct2').checked)
+        {
+            score++;
+        }
+        if (document.getElementById('correct3').checked)
+        {
+            score++;
+        }
+        if (document.getElementById('correct4').checked)
+        {
+            score++;
+        }
+        if (document.getElementById('correct5').checked)
+        {
+            score++;
+        }
+        if (document.getElementById('correct6').checked)
+        {
+            score++;
+        }
+        if (document.getElementById('correct7').checked)
+        {
+            score++;
+        }
+        if (document.getElementById('correct8').checked)
+        {
+            score++;
+        }
+        if (document.getElementById('correct9').checked)
+        {
+            score++;
+        }
+        if (document.getElementById('correct10').checked)
+        {
+            score++;
+        }   
+        if (score < 1)
+        {
+            alert("Ton score est: "+score+"/10."+" Tu dois beaucoup travailler  ");
+        }   
+        if (score < 4, score >0)
+        {
+            alert("Ton score est: "+score+"/10."+" Tu dois travailler ");
+        }
+        if (score < 7, score > 3)
+        {
+            alert("Ton score est: "+score+"/10."+" Tu y es presque ");
+        }
+        if (score < 10, score > 6)
+        {
+            alert("Ton score est: "+score+"/10."+" C'est un très bon score ");
+        }
+        if (score < 11, score > 9)
+        {
+            alert("Ton score est: "+score+"/10."+" Note parfaite ");
+        }   
+        
+        }
+</script>
+</body>
+</html>
+

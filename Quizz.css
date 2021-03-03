@@ -1,0 +1,165 @@
+        body{
+        background-color:lightgrey; 
+        }
+        #menu {
+        margin : 1,5em 0 1.5em 0;
+        padding : 5px 1em 5px 0;
+        list-style-type : none;
+        background-color: #cc0;
+        color: #4b4b69;
+        font-weight : bold;
+        font-size : 0.9em;
+        text-align: center;
+        }
+        #menu li {
+        display: inline;
+        padding : 5px 0;
+        }
+        #menu li a {
+        padding : 5px 1em 5px 1em;
+        color: #4b4b69;
+        text-decoration: none;
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+        }
+        #menu li a:hover {
+        background-color: #4b4b69;
+        color: #d9d940;
+        border-left: 4px solid white;
+        border-right: 4px solid white;
+        }
+        #menu li:last-child{
+        border-right: 1px solid #fff;
+        }
+        #menu li:first-child{
+        border-left: 1px solid #fff;
+        }
+        h1{
+        background-color:dodgerblue;
+        color: black;
+        text-align: center;
+        }
+        h3{
+        color: black;
+        text-align: left;
+        }
+        h2{
+        color: black;
+        text-align: center;
+        }
+        div{
+        text-align: center;
+        }
+        #button {
+        width: 200px;
+        height: 100px;
+        background-color: red;
+        animation-name: example;
+        animation-duration: 300s;
+        }   
+
+        @keyframes example {
+        0% {background-color: red;}
+        1% {background-color: orange;}
+        2% {background-color: yellow;}
+        3% {background-color: yellowgreen;}
+        4% {background-color: greenyellow;}
+        5% {background-color: green;}
+        6% {background-color: skyblue;}
+        7%   {background-color: cadetblue;}
+        8%  {background-color: blue;}
+        9%  {background-color: blueviolet;}
+        10%   {background-color: red;}
+        11%  {background-color: orange;}
+        12%  {background-color: yellow;}
+        13% {background-color: yellowgreen;}
+        14% {background-color: greenyellow;}
+        15% {background-color: green;}
+        16% {background-color: skyblue;}
+        17%   {background-color: cadetblue;}
+        18%  {background-color: blue;}
+        19%  {background-color: blueviolet;}
+        20%   {background-color: red;}
+        21%  {background-color: orange;}
+        22%  {background-color: yellow;}
+        23% {background-color: yellowgreen;}
+        24% {background-color: greenyellow;}
+        25% {background-color: green;}
+        26% {background-color: skyblue;}
+        27%   {background-color: cadetblue;}
+        28%  {background-color: blue;}
+        29%  {background-color: blueviolet;}
+        30%   {background-color: red;}
+        31%  {background-color: orange;}
+        32%  {background-color: yellow;}
+        33% {background-color: yellowgreen;}
+        34% {background-color: greenyellow;}
+        35% {background-color: green;}
+        36% {background-color: skyblue;}
+        37%   {background-color: cadetblue;}
+        38%  {background-color: blue;}
+        39%  {background-color: blueviolet;}
+        40%   {background-color: red;}
+        41%  {background-color: orange;}
+        42%  {background-color: yellow;}
+        43% {background-color: yellowgreen;}
+        44% {background-color: greenyellow;}
+        45% {background-color: green;}
+        46% {background-color: skyblue;}
+        47%   {background-color: cadetblue;}
+        48%  {background-color: blue;}
+        49%  {background-color: blueviolet;}
+        50%   {background-color: red;}
+        51%  {background-color: orange;}
+        52%  {background-color: yellow;}
+        53% {background-color: yellowgreen;}
+        54% {background-color: greenyellow;}
+        55% {background-color: green;}
+        56% {background-color: skyblue;}
+        57%   {background-color: cadetblue;}
+        58%  {background-color: blue;}
+        59%  {background-color: blueviolet;}
+        60%   {background-color: red;}
+        61%  {background-color: orange;}
+        62%  {background-color: yellow;}
+        63% {background-color: yellowgreen;}
+        64% {background-color: greenyellow;}
+        65% {background-color: green;}
+        66% {background-color: skyblue;}
+        67%   {background-color: cadetblue;}
+        68%  {background-color: blue;}
+        69%  {background-color: blueviolet;}
+        70%   {background-color: red;}
+        71%  {background-color: orange;}
+        72%  {background-color: yellow;}
+        73% {background-color: yellowgreen;}
+        74% {background-color: greenyellow;}
+        75% {background-color: green;}
+        76% {background-color: skyblue;}
+        77%   {background-color: cadetblue;}
+        78%  {background-color: blue;}
+        79%  {background-color: blueviolet;}
+        80%   {background-color: red;}
+        81%  {background-color: orange;}
+        82%  {background-color: yellow;}
+        83% {background-color: yellowgreen;}
+        84% {background-color: greenyellow;}
+        85% {background-color: green;}
+        86% {background-color: skyblue;}
+        87%   {background-color: cadetblue;}
+        88%  {background-color: blue;}
+        89%  {background-color: blueviolet;}
+        90%   {background-color: red;}
+        91%  {background-color: orange;}
+        92%  {background-color: yellow;}
+        93% {background-color: yellowgreen;}
+        94% {background-color: greenyellow;}
+        95% {background-color: green;}
+        96% {background-color: skyblue;}
+        97%   {background-color: cadetblue;}
+        98%  {background-color: blue;}
+        99%  {background-color: blueviolet;}
+        100% {background-color: red;}
+        
+       
+        }
